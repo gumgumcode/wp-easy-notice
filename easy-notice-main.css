@@ -1,0 +1,24 @@
+.sn_notice {
+    padding: 10px 15px;
+    margin: 5px 0 15px;
+}
+
+.sn_notice_home {
+    z-index: 9;
+    padding: 50px 50px 15px;
+    position: relative;
+    width: 100%;
+    display: inline-block;
+}
+
+.sn_red {
+    background: #fb5f60;
+}
+
+.sn_yellow {
+    background: #ffca00;
+}
+
+.sn_green {
+    background: #2ab48d;
+}
