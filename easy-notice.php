@@ -1,6 +1,7 @@
 <?php
 /**
  * Plugin Name: Easy Notice
+ * Plugin URI: https://github.com/codestor4/easy-notice
  * Description: Creates a notice on the site. Can be used for announcements, updates, etc.
  * Version: 1.0.0
  * Author: Omkar Bhagat
