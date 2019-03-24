@@ -5,6 +5,7 @@
  * Version: 1.0.0
  * Author: Omkar Bhagat
  * Author URI: https://omkarbhagat.com
+ * License: GPL 3
  */
 
  /*
@@ -19,7 +20,7 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 GNU General Public License for more details.
  
 You should have received a copy of the GNU General Public License
-along with Easy Notice. If not, see https://www.gnu.org/licenses/gpl.html.
+along with Easy Notice. If not, see https://www.gnu.org/licenses/gpl-3.0.txt.
 */
 
 /* Fun fact: Functions are prefixed by sn_ because initially 
