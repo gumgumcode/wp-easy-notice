@@ -9,26 +9,6 @@
  * License: GPL 3
  */
 
- /*
-Easy Notice is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-any later version.
- 
-Easy Notice is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-GNU General Public License for more details.
- 
-You should have received a copy of the GNU General Public License
-along with Easy Notice. If not, see https://www.gnu.org/licenses/gpl-3.0.txt.
-*/
-
-/* Fun fact: Functions are prefixed by sn_ because initially 
-I named the plugin Simple Notice but later switched it to Easy Notice 
-to avoid any resemblance with a plugin called SimpleNote. 
-*/
-
  // exit if we try to access it directly
 if ( !defined( 'ABSPATH' ) )
     exit;
@@ -115,7 +95,7 @@ function sn_menu_page() {
 
 // enqueue scripts and styles for this plugin
 function sn_enqueue_scripts() {
-    wp_register_style( 'easy-notice-main', plugins_url('easy-notice/easy-notice-main.css') ) ;
+    wp_register_style( 'easy-notice-main', plugin_dir_url( __FILE__ ) . 'easy-notice-main.css' ) ;
     wp_enqueue_style( 'easy-notice-main' );
 }
 add_action('wp_enqueue_scripts', 'sn_enqueue_scripts');
